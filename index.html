@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Cafe</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+    <a href="#tasks">Add Task</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Our cafe offers a cozy atmosphere and delicious food, perfect for relaxing or meeting up with friends.</p>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <div class="menu-images">
+        <img src="tea.jpeg" alt="Tea" class="menu-image" width="200" height="200">
+        <img src="cofee.jpg" alt="Coffee" class="menu-image" width="200" height="200">
+        <img src="croissant.jpg" alt="Croissant" class="menu-image" width="200" height="200">
+        <img src="sandwich.webp" alt="Sandwich" class="menu-image" width="200" height="200">
+        <img src="cake.jpg" alt="Cake"  class="menu-image" width="200" height="200">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required><br><br>
+        <input type="email" id="email" placeholder="Your Email" required><br><br>
+        <textarea id="message" placeholder="Your Message" required></textarea><br><br>
+        <button type="submit">Submit</button>
+        <div id="formError" class="form-error"></div>
+    </form>
+</section>
+
+<section id="tasks">
+    <h2>Add Task</h2>
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button id="addTaskBtn">Add Task</button>
+    <ul id="taskList" class="task-list"></ul>
+</section>
+
+<section id="social">
+    <h2>Follow Us</h2>
+    <div class="social-icons">
+        <!-- Boxicons social media icons -->
+        <a href="https://facebook.com" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="bx bxl-twitter"></i></a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Our Cafe. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
